@@ -1,0 +1,71 @@
+body {
+    grid-template-areas: inherit;
+}
+
+.kotak{
+    background: whitesmoke;
+    width: 300px;
+    border: 1px solid rgb(32, 22, 2);
+    border-radius: 5px;
+}
+
+.tulisanAwal{
+   text-align: center;
+   padding: 2px;
+   margin: auto; 
+}
+
+img{
+    width: 260px;
+    height: 300px;
+    margin: 2px 5px 5px 15px;
+    border: 3px solid wheat;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 2px;
+}
+
+.pr{
+    text-align: center;
+    background: aqua;
+    height: 25px;
+    margin: 10px;
+}
+
+#table {
+    padding: 10px;
+    margin: 10px ;  
+}
+
+#table th {
+    padding: 5px;
+    text-align: left;
+    color: black;
+}
+
+#table tr:nth-child(odd) td {
+    background-color: white;
+    color: blue;
+}
+
+#table tr:nth-child(even) td {
+    background-color: white;
+    color: blue;
+}
+
+.pr1 {
+    margin: 3px;
+    padding: 2px;
+    line-height: 5px;
+}
+
+.pr2 {
+    margin: 3px;
+    padding: 2px;
+    line-height: 5px;
+}
+
+.pr3 {
+    margin: 3px;
+    padding: 2px;
+    line-height: 5px;
+}
